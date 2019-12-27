@@ -1,9 +1,5 @@
 global:
-  #ingressSubdomain: mooc-cpat-ocp01-cluster.us-east.containers.appdomain.cloud
   ingressSubdomain: mooc-cpat-ocp01-c-750890-afb9c6047b062b44e3f1b3ecfeba4309-0000.us-east.containers.appdomain.cloud
-  #ingressSubdomain: mooc-cpat-ocp01-cluster.us-east.containers.appdomain.cloud
-  #tlsSecretName: mooc-cpat-ocp01-cluster
-  #tlsSecretName: mooc-cpat-ocp01-c-750890-afb9c6047b062b44e3f1b3ecfeba4309-0000
   tlsSecretName: mooc-cpat-ocp01-cluster
 
 
@@ -12,5 +8,4 @@ spring-boot-og:
   
   ingress:
     enabled: true
-    #tlsSecretName: mooc-cpat-ocp01-cluster
     tlsSecretName: mooc-cpat-ocp01-cluster
