@@ -4,7 +4,7 @@ global:
 
 
 react-og:
-  replicaCount: 3 
+  replicaCount: 1 
   
   ingress:
     enabled: true
